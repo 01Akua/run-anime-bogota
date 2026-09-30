@@ -58,7 +58,6 @@
         <span class="chip dist">5K</span>
         <span class="chip dist">10K</span>
         <span class="chip dist">15K</span>
-        <span class="chip soon"><i class="pulse-dot"></i>Próximamente</span>
       </div>
       <div class="hero-cta">
         <a href="#inscripcion" class="btn btn-glow">¡Asegura tu cupo!</a>
@@ -75,6 +74,12 @@
 <div class="zigzag" aria-hidden="true"></div>
 
 <section id="que-es" class="section-pad">
+  <div class="bubbles" aria-hidden="true">
+    <span style="width:18px;height:18px;left:6%;top:18%;background:var(--pink);"></span>
+    <span style="width:10px;height:10px;left:14%;top:64%;background:var(--gold);animation-delay:-2s;"></span>
+    <span style="width:26px;height:26px;left:92%;top:10%;background:var(--blue);animation-delay:-4s;"></span>
+    <span style="width:13px;height:13px;left:88%;top:70%;background:var(--pink);animation-delay:-1s;"></span>
+  </div>
   <div class="wrap">
     <div class="sec-head" data-reveal>
       <span class="eyebrow">El origen</span>
@@ -95,6 +100,12 @@
 </section>
 
 <section id="ryu-suki" class="section-pad alt">
+  <div class="bubbles" aria-hidden="true">
+    <span style="width:22px;height:22px;left:4%;top:12%;background:var(--blue);"></span>
+    <span style="width:12px;height:12px;left:10%;top:80%;background:var(--pink);animation-delay:-3s;"></span>
+    <span style="width:16px;height:16px;left:95%;top:24%;background:var(--gold);animation-delay:-5s;"></span>
+    <span style="width:9px;height:9px;left:80%;top:88%;background:var(--blue);animation-delay:-1.5s;"></span>
+  </div>
   <div class="wrap">
     <div class="sec-head" data-reveal>
       <span class="eyebrow">Mascotas oficiales</span>
@@ -103,14 +114,14 @@
     </div>
     <div class="mascot-cards">
       <div class="mascot-card ryu" data-reveal data-tilt>
-        <div class="art"></div>
+        <div class="art"><img src="assets/img/ryu-solo.jpg" alt="Ryu, el lobo guerrero" loading="lazy"></div>
         <div class="body">
           <h3>Ryu — El Guerrero <span class="jp">竜 · dragón</span></h3>
           <p>Ryu es un lobo con alma de dragón: entrena antes del amanecer y cree que el verdadero poder no está en ganar, sino en nunca rendirse. Te acompañará en cada kilómetro para recordarte que siempre puedes dar un paso más.</p>
         </div>
       </div>
       <div class="mascot-card suki" data-reveal data-reveal-delay="120" data-tilt>
-        <div class="art"></div>
+        <div class="art"><img src="assets/img/suki-solo.jpg" alt="Suki, la loba guerrera" loading="lazy"></div>
         <div class="body">
           <h3>Suki — La Guerrera <span class="jp">好き · cariño</span></h3>
           <p>Suki es una loba valiente y rápida, con el corazón más grande de la manada. Corre por quienes ama y por quienes aún no se atreven a empezar, y te esperará en la meta para celebrar tu victoria.</p>
@@ -123,17 +134,35 @@
       <p class="lead" data-reveal style="margin-top:10px;">El lobo es uno de los símbolos más poderosos de la naturaleza, y encarna todo lo que Run Anime quiere despertar en ti.</p>
       <div class="feature-row">
         <div class="feature" data-reveal>
-          <div class="ico">🐾</div>
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 21c-3.5-2.4-7-5-7-8.5C5 10 6.6 8 9 8c1.3 0 2.4.7 3 1.7C12.6 8.7 13.7 8 15 8c2.4 0 4 2 4 4.5 0 3.5-3.5 6.1-7 8.5Z" fill="currentColor"/>
+              <circle cx="7" cy="6.5" r="1.6" fill="currentColor"/>
+              <circle cx="12" cy="4.6" r="1.6" fill="currentColor"/>
+              <circle cx="17" cy="6.5" r="1.6" fill="currentColor"/>
+            </svg>
+          </div>
           <h4>Lealtad y familia</h4>
           <p>Los lobos viven y se crían en manada: cooperación, amor y protección de los suyos, corriendo juntos sin dejar a nadie atrás.</p>
         </div>
         <div class="feature" data-reveal data-reveal-delay="100">
-          <div class="ico">◈</div>
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M2 12c2.5-4.5 6-7 10-7s7.5 2.5 10 7c-2.5 4.5-6 7-10 7s-7.5-2.5-10-7Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              <circle cx="12" cy="12" r="3.2" fill="currentColor"/>
+            </svg>
+          </div>
           <h4>Instinto e intuición</h4>
           <p>Simbolizan la capacidad de escuchar tu voz interior y confiar en ti mismo, incluso cuando el camino se pone difícil.</p>
         </div>
         <div class="feature" data-reveal data-reveal-delay="200">
-          <div class="ico">▲</div>
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M3 19 9.5 7l3 5.5L14.5 9 21 19Z" fill="currentColor"/>
+              <path d="M9.5 7 3 19" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              <circle cx="9.5" cy="4.2" r="1.6" fill="currentColor"/>
+            </svg>
+          </div>
           <h4>Independencia</h4>
           <p>Muestran la fuerza para avanzar con seguridad por tu propio camino, sin perder el sentido de pertenencia a tu manada.</p>
         </div>
@@ -144,6 +173,11 @@
 </section>
 
 <section class="section-pad">
+  <div class="bubbles" aria-hidden="true">
+    <span style="width:20px;height:20px;left:8%;top:8%;background:var(--gold);"></span>
+    <span style="width:11px;height:11px;left:5%;top:74%;background:var(--blue);animation-delay:-2.5s;"></span>
+    <span style="width:24px;height:24px;left:93%;top:60%;background:var(--pink);animation-delay:-4.5s;"></span>
+  </div>
   <div class="wrap">
     <div class="sec-head" data-reveal>
       <span class="eyebrow">Tu equipo de guerrero</span>
@@ -158,27 +192,62 @@
       <div class="kit-item" data-reveal><span class="n">05</span><h4>Atención médica</h4><p>Personal médico y ambulancias durante todo el recorrido.</p></div>
       <div class="kit-item" data-reveal data-reveal-delay="40"><span class="n">06</span><h4>Hidratación</h4><p>Puntos de hidratación en el recorrido y en la meta.</p></div>
       <div class="kit-item" data-reveal data-reveal-delay="80"><span class="n">07</span><h4>Cierres viales</h4><p>Recorrido acompañado por personal de logística.</p></div>
-      <div class="kit-item" data-reveal data-reveal-delay="120"><span class="n">08</span><h4>Zona Anime Fest</h4><p>Certificado digital, música, cosplay, stands y actividades.</p></div>
+      <div class="kit-item" data-reveal data-reveal-delay="120"><span class="n">08</span><h4>Zona Anime Fest</h4><p>Música, cosplay, stands y actividades.</p></div>
+      <div class="kit-item" data-reveal><span class="n">09</span><h4>Certificado digital</h4><p>De participación, con tu tiempo oficial.</p></div>
     </div>
 
     <div class="reveal-grid" style="margin-top:46px;">
       <div class="reveal-card medal" data-reveal>
         <span class="badge">Saga Zodiacal · N.º 1</span>
-        <div class="reveal-icon">🏅</div>
+        <div class="reveal-icon">
+          <svg class="veiled" viewBox="0 0 100 100" aria-hidden="true">
+            <defs>
+              <linearGradient id="medalGold" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#fff4cf"/>
+                <stop offset="45%" stop-color="#ffc93c"/>
+                <stop offset="100%" stop-color="#b8790a"/>
+              </linearGradient>
+            </defs>
+            <path d="M38 46 26 14h12l9 24Z" fill="#ff2f8f"/>
+            <path d="M62 46 74 14H62l-9 24Z" fill="#29c8ff"/>
+            <circle cx="50" cy="60" r="26" fill="url(#medalGold)" stroke="#7a4d05" stroke-width="2"/>
+            <circle cx="50" cy="60" r="18" fill="none" stroke="#7a4d05" stroke-width="1.5" stroke-dasharray="2 3"/>
+            <path d="M50 50 53.5 57.5 61.5 58.5 55.5 64 57 72 50 68 43 72 44.5 64 38.5 58.5 46.5 57.5Z" fill="#7a4d05"/>
+          </svg>
+          <span class="veil"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.8-7 10-7 10 7 10 7-3.8 7-10 7-10-7-10-7Z" stroke="currentColor" stroke-width="1.6"/><path d="M3 3l18 18" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        </div>
         <h3>La medalla del guerrero</h3>
-        <p>Cada edición tendrá una medalla única y coleccionable. Quienes la obtengan serán los fundadores de la leyenda. Se revela oficialmente días antes de la carrera.</p>
+        <p>Cada edición tendrá una medalla única y coleccionable. Quienes la obtengan serán los fundadores de la leyenda. Se develará oficialmente días antes de la carrera.</p>
       </div>
       <div class="reveal-card shirt" data-reveal data-reveal-delay="120">
         <span class="badge">Edición Bogotá 2027</span>
-        <div class="reveal-icon">👕</div>
+        <div class="reveal-icon">
+          <svg class="veiled" viewBox="0 0 100 100" aria-hidden="true">
+            <defs>
+              <linearGradient id="shirtBlue" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#8fe6ff"/>
+                <stop offset="55%" stop-color="#29c8ff"/>
+                <stop offset="100%" stop-color="#ff2f8f"/>
+              </linearGradient>
+            </defs>
+            <path d="M36 20 20 30l6 12 8-4v40h32V38l8 4 6-12-16-10-6 6h-16Z" fill="url(#shirtBlue)" stroke="#12324a" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M42 20a8 8 0 0 0 16 0" fill="none" stroke="#12324a" stroke-width="2"/>
+          </svg>
+          <span class="veil"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M2 12s3.8-7 10-7 10 7 10 7-3.8 7-10 7-10-7-10-7Z" stroke="currentColor" stroke-width="1.6"/><path d="M3 3l18 18" stroke="currentColor" stroke-width="1.6"/></svg></span>
+        </div>
         <h3>Camiseta oficial</h3>
-        <p>Diseño exclusivo en tela técnica liviana y transpirable, pensada para acompañarte desde el calentamiento hasta la meta. Se revela días antes de la carrera.</p>
+        <p>Diseño exclusivo en tela técnica liviana y transpirable, pensada para acompañarte desde el calentamiento hasta la meta. Se develará días antes de la carrera.</p>
       </div>
     </div>
   </div>
 </section>
 
 <section id="distancias" class="section-pad alt">
+  <div class="bubbles" aria-hidden="true">
+    <span style="width:16px;height:16px;left:3%;top:20%;background:var(--pink);"></span>
+    <span style="width:22px;height:22px;left:96%;top:14%;background:var(--gold);animation-delay:-3.5s;"></span>
+    <span style="width:10px;height:10px;left:90%;top:85%;background:var(--blue);animation-delay:-1s;"></span>
+  </div>
   <div class="wrap">
     <div class="sec-head" data-reveal>
       <span class="eyebrow">Elige tu batalla</span>
@@ -219,6 +288,11 @@
 </section>
 
 <section id="experiencia" class="section-pad">
+  <div class="bubbles" aria-hidden="true">
+    <span style="width:18px;height:18px;left:6%;top:16%;background:var(--blue);"></span>
+    <span style="width:12px;height:12px;left:12%;top:82%;background:var(--gold);animation-delay:-2s;"></span>
+    <span style="width:20px;height:20px;left:94%;top:70%;background:var(--pink);animation-delay:-4s;"></span>
+  </div>
   <div class="wrap">
     <div class="sec-head" data-reveal>
       <span class="eyebrow">Un recorrido, una saga</span>
@@ -249,6 +323,11 @@
 </section>
 
 <section id="inscripcion" class="section-pad alt">
+  <div class="bubbles" aria-hidden="true">
+    <span style="width:20px;height:20px;left:5%;top:14%;background:var(--gold);"></span>
+    <span style="width:14px;height:14px;left:8%;top:78%;background:var(--pink);animation-delay:-3s;"></span>
+    <span style="width:18px;height:18px;left:95%;top:20%;background:var(--blue);animation-delay:-1.5s;"></span>
+  </div>
   <div class="wrap">
     <div class="form-card" data-reveal>
       <div class="form-head">
