@@ -224,7 +224,6 @@ section{position:relative;}
 }
 @media (max-width:900px){
   .hero-inner{grid-template-columns:1fr;}
-  .hero-art{order:-1;}
 }
 
 .scroll-cue{
