@@ -172,26 +172,6 @@
     tick();
   }
 
-  /* ---------- prototype signup form ---------- */
-  var form = document.getElementById("signup-form");
-  var success = document.getElementById("form-success");
-  var resetBtn = document.getElementById("reset-form");
-  if (form && success) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      form.style.display = "none";
-      success.classList.add("show");
-      success.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
-    });
-  }
-  if (resetBtn) {
-    resetBtn.addEventListener("click", function () {
-      success.classList.remove("show");
-      form.style.display = "";
-      form.reset();
-    });
-  }
-
   /* ---------- smooth in-page anchors (fallback for older Safari) ---------- */
   document.querySelectorAll('a[href^="#"]').forEach(function (a) {
     a.addEventListener("click", function (e) {
