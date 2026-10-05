@@ -322,10 +322,11 @@ section{position:relative;}
 }
 .feature:hover{transform:translateY(-4px);border-color:var(--pink);}
 .feature .ico{
-  width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;
+  width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;
   background:linear-gradient(135deg,var(--blue),var(--pink));margin-bottom:12px;color:#fff;
+  box-shadow:0 8px 16px -8px rgba(76,34,110,.5);
 }
-.feature .ico svg{width:22px;height:22px;}
+.feature .ico svg{width:30px;height:30px;}
 .feature h4{font-family:'Bungee';font-size:13.5px;color:var(--fg);letter-spacing:.01em;}
 .feature p{margin-top:8px;font-size:13.5px;}
 @media (max-width:760px){.feature-row{grid-template-columns:1fr;}}
