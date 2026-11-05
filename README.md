@@ -45,6 +45,23 @@ HTML, CSS y JavaScript sin frameworks ni build step — se sirve directamente co
 - Las fotografías realistas de lobos se reemplazaron por ilustraciones estilo anime (licencia CC0, uso comercial libre, sin necesidad de atribución), con la misma estética nocturna y de flores de cerezo que las tarjetas de Ryu y Suki: manada bajo la luna (familia), lobo con aura de energía azul (instinto), lobo aullando en un acantilado entre flores de cerezo (independencia).
 - No se usaron los personajes de referencia enviados por el cliente (familia de Dragon Ball, Totoro) por ser propiedad de Toei Animation/Bird Studio y Studio Ghibli — riesgo de derechos de autor en un sitio comercial con patrocinadores.
 
+**Ronda 5 — cambios del 26-10-2026**
+- Sección "Precios de inscripción" con solo 2 puntos: precio lanzamiento y precio full.
+- Se quitó la distancia 2K (hero, tarjetas, texto de experiencia y meta description); la categoría inclusiva "Guerrero sin Límites" queda solo en 5K y 15K, con la definición del reglamento.
+- Nueva página `reglamento.html` (acordeón por capítulos + preguntas frecuentes) generada desde `Reglamento_Run_Anime_2027_final.docx`, enlazada en nav y footer.
+- Correo info@runanime.com agregado en Contacto.
+
+**Ronda 6 — Reglamento V1 (29-10-2026)**
+- `reglamento.html` regenerado desde `Reglamento_Run_Anime_2027 V1.docx`: tarifas de las 4 fases, retracto, declaración del representante legal de menores, aceptación previa al pago y ajustes de datos personales.
+
+**Ronda 7 — ajustes finales (oct–nov 2026)**
+- Burbuja flotante de WhatsApp; correo info@runanime.com con tamaño de fuente corregido.
+- Redes: Instagram y TikTok apuntan a @runanimecol; se quitó @majidgroup.
+- Publicado en runanime.com por cPanel (zips en `../deploy/`: `runanime-actualizacion-reglamento-v1.zip`, `runanime-actualizacion-whatsapp-redes.zip`). Nota: el usuario entró al cPanel por un enlace de pharmadream.com.co, pero la cuenta es `runanime` (fulgore.inc.cl); confirmar siempre cuenta y dominio antes de extraer.
+
+**Optimización de peso (04-11-2026)**
+- Imágenes JPG/PNG convertidas a WebP (de ~2,5 MB a ~0,6 MB en `assets/img`), favicon de 96 px, `width`/`height` en todas las imágenes, hero con `fetchpriority=high`, script con `defer` y Google Fonts sin bloquear el render.
+
 ## Publicación oficial
 
 El sitio está publicado en el hosting y dominio propios del cliente:

@@ -184,3 +184,9 @@
     });
   });
 })();
+
+/* open the reglamento accordion that matches the URL hash */
+(function () {
+  var el = location.hash && document.querySelector(".reg-item" + location.hash);
+  if (el) { el.open = true; el.scrollIntoView(); }
+})();
