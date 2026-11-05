@@ -62,6 +62,10 @@ HTML, CSS y JavaScript sin frameworks ni build step — se sirve directamente co
 **Optimización de peso (04-11-2026, publicado en runanime.com y GitHub `4f7d02f`)**
 - Imágenes JPG/PNG convertidas a WebP (de ~2,5 MB a ~0,6 MB en `assets/img`), favicon de 96 px, `width`/`height` en todas las imágenes, hero con `fetchpriority=high`, script con `defer` y Google Fonts sin bloquear el render.
 
+**URLs limpias y servidor (05-11-2026)**
+- Enlaces sin `index.html`/`.html` (`/` y `/reglamento`), canonical en cada página. En el servidor, `.htaccess` en `public_html` (vive solo allí, no en el repo): redirige http→https y www→sin www, `/index.html`→`/`, `*.html`→sin extensión (301), reescribe `/pagina`→`pagina.html`, activa gzip y caché (imágenes 1 mes, CSS/JS 1 semana). No usar `DirectoryIndex`: dejaba `/inscripcion/` en 403.
+- Fuentes Bungee + Manrope con carga normal (la técnica `media=print` las dejó sin cargar).
+
 ## Publicación oficial
 
 El sitio está publicado en el hosting y dominio propios del cliente:
