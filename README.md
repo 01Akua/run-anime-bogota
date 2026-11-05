@@ -59,7 +59,7 @@ HTML, CSS y JavaScript sin frameworks ni build step — se sirve directamente co
 - Redes: Instagram y TikTok apuntan a @runanimecol; se quitó @majidgroup.
 - Publicado en runanime.com por cPanel (zips en `../deploy/`: `runanime-actualizacion-reglamento-v1.zip`, `runanime-actualizacion-whatsapp-redes.zip`). Nota: el usuario entró al cPanel por un enlace de pharmadream.com.co, pero la cuenta es `runanime` (fulgore.inc.cl); confirmar siempre cuenta y dominio antes de extraer.
 
-**Optimización de peso (04-11-2026)**
+**Optimización de peso (04-11-2026, publicado en runanime.com y GitHub `4f7d02f`)**
 - Imágenes JPG/PNG convertidas a WebP (de ~2,5 MB a ~0,6 MB en `assets/img`), favicon de 96 px, `width`/`height` en todas las imágenes, hero con `fetchpriority=high`, script con `defer` y Google Fonts sin bloquear el render.
 
 ## Publicación oficial
